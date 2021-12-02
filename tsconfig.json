@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "module": "UMD",
+	"target": "es2018",
+	"lib": [
+		"dom",
+		"es2018.promise"
+	  ],
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "outDir": "./server",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "typeRoots" : ["./typings", "node_modules/@types"],
+    "watch" : false,
+    
+  },
+  "files": [
+        "./src/server.ts"
+    ],
+  "compileOnSave": true,
+  "buildOnSave": true,
+  "allowJs": true
+}
