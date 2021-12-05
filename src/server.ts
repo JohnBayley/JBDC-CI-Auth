@@ -6,7 +6,7 @@ import { RestServer } from './core/RestServer';
 
 /**
  *
- * Bootstrap the Deployment service.
+ * Bootstrap the Application service.
  * @class
  *
  */
