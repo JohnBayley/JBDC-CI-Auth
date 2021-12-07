@@ -37,14 +37,7 @@ export class WebHookController implements IRestController {
 		startupLogger.startup('Configured POST endpoint ' + this.path + 'webHook');
 	}
 
-	/**
-	 * @method
-	 * @private
-	 * Return a 200 OK status.
-	 * @param {express.Request} req Express request data
-	 * @param {express.Response} res Express response data
-	 * @returns {Promise<void>} Returns an empty promise
-	 */
+
 	private onWebhook = async (req: express.Request, res: express.Response): Promise<void> => {
 			logger.info('Request: %o', req.body);
 			return Promise.resolve();
